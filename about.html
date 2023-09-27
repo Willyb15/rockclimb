@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>What is Rock Climbing?</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <style>
+        .slide p {
+            font-size: 20px; /* Adjust the font size as needed */
+            text-align: left;
+        }
+
+        .slide ul { /* Apply the style to the entire list */
+            text-align: left;
+            margin: 30px;
+            font-size: 25px;
+            list-style-type: circle;
+        }
+
+        .image-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns, adjust as needed */
+            gap: 10px; /* Adjust the gap between images */
+        }
+
+        .slide ul {
+            text-align: left;
+            margin: 25px;
+            font-size: 25px;
+            list-style-type: circle;
+        }
+
+        /* CSS for individual images */
+        .image-container img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        /* Add a class to make the header sticky */
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+    </style>
+<body>
+<header class="sticky">
+    <h1>Modern Rock Climbing</h1>
+</header>
+<!-- Include the Slide Template and Fill in the Content -->
+<div class="slide" id="slide2">
+    <h1>What is Rock Climbing?</h1>
+    <ul>
+        <li> Rock climbing stands out as an adventure-filled activity that entails scaling natural or artificial rock
+            formations, offering a thrilling experience of suspension high above the ground
+        </li>
+        <li>This distinctive sport provides an extraordinary sense of liberation and concentration that few other
+            pastimes can match.
+        </li>
+        <li>Rock climbing has garnered widespread acclaim, drawing enthusiasts for both leisure and competitive
+            pursuits.
+        </li>
+    </ul>
+    <!-- Container for images -->
+    <div class="image-container">
+        <img alt="Rock Climbing Image" src="img/gym_climber.png">
+        <img alt="Rock Climbing Image" src="img/outdoor_climber.png">
+    </div>
+    <!-- Navigation Links -->
+    <p><a href="index.html">Previous</a> | <a href="history.html">History of Rock Climbing</a></p>
+</div>
+</body>
+</html>
+

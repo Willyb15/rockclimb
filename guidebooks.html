@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guidebooks</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+    .slide p {
+        font-size: 20px; /* Adjust the font size as needed */
+        text-align: left;
+        display: inline;
+    }
+
+    .slide ul { /* Apply the style to the entire list */
+        text-align: left;
+        margin: 30px;
+        font-size: 25px;
+        list-style-type: circle;
+    }
+
+    .image-container {
+        display: flex;
+        grid-template-columns: 1fr 1fr; /* Two columns, adjust as needed */
+        gap: 10px; /* Adjust the gap between images */
+    }
+
+    .slide ul {
+        text-align: left;
+        margin: 25px;
+        font-size: 25px;
+        list-style-type: circle;
+    }
+
+    /* CSS for individual images */
+    .image-container img {
+        width: 500px;
+        height: 500px;
+        object-fit: contain;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    /* Add a class to make the header sticky */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
+</style>
+<body>
+<header class="sticky">
+    <h1>Modern Rock Climbing</h1>
+</header>
+<!-- Include the Slide Template and Fill in the Content -->
+<div class="slide" id="slide6">
+    <h1>How do climbers know where to climb?</h1>
+<!--    <p>Rock climbing requires specific gear and equipment, including:</p>-->
+    <ul>
+        <li>Climbing guidebooks are used by rock climbers to find the location of climbing routes at crags or on mountains and their grade of difficulty</li>
+        <li>Many guidebooks also offer condensed information about local restaurants, bars, and camping areas; often include sections on geology and local climbing history; and may contain many pictures to inspire climbers.</li>
+        <li>Route descriptions typically include information about the length of a route and its grade (difficulty). The description can also include varying amounts of information about how to climb the route, such as the location of the crux, special techniques needed, and amount and type of gear needed. When this information is very detailed it is collectively known as beta</li>
+        <!-- Add more gear items as needed -->
+    </ul>
+    <div class="image-container">
+        <img alt="Rock Climbing Image" src="img/guidebook.png">
+        <img alt="Rock Climbing Image" src="img/topo.png">
+        <img alt="Rock Climbing Image" src="img/topo2.png">
+    </div>
+    <!-- Navigation Links -->
+    <p><a href="type_alpine.html">Previous</a> | <a href="technique.html">Next</a></p>
+</div>
+</body>
+</html>

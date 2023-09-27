@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rating System</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+    .slide h1 {
+        font-size: 30px;
+        margin-top: -20px;
+        color: #333;
+    }
+
+    .slide {
+        display: flex;
+        flex-direction: initial; /* Reverse the order to place the image on the right */
+        justify-content: space-between;
+        /*align-items: center;*/
+        text-align: left;
+    }
+
+    .textWrapper {
+        flex: 1;
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .image-container {
+        padding: 20px; /* Add padding for spacing */
+        margin-left: 10px;
+    }
+
+    .slide ul {
+        text-align: left;
+        margin: 25px;
+        font-size: 25px;
+        list-style-type: circle;
+    }
+    img{
+        width: 600px;
+        height: 800px;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    /* Add a class to make the header sticky */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
+</style>
+<body>
+<header class="sticky">
+    <h1>Modern Rock Climbing</h1>
+</header>
+<!-- Include the Slide Template and Fill in the Content -->
+<div class="slide" id="slide6">
+    <!-- Include the Slide Template and Fill in the Content -->
+    <div class="slide" id="slide3">
+        <div class="textWrapper">
+            <h1>How do climbers know what to climb?</h1>
+            <p>To ensure climbers can choose routes that match their abilities and preferences, various rating systems have been developed to provide valuable information about the difficulty and characteristics of climbing routes. </p>
+            <ul>
+                <li>
+                    <strong>Yosemite Decimal System (YDS)</strong>
+                    <p>Grade Range: 5.0 - 5.15. <br>
+                    <p>The Yosemite Decimal System is one of the oldest and most widely used climbing rating systems in North America. It rates climbs based on difficulty and danger.</p>
+                </p>
+                </li>
+                <li>
+                    <strong>French Grading System</strong>
+                    <p>Grade Range: 1 - 9b+<br>
+                     <p>  The French grading system is commonly used in Europe and has been adopted worldwide. It focuses on the technical difficulty of the climb without considering other factors. The grades are denoted by numbers, with higher numbers indicating greater difficulty.</p></li>
+                </p>
+                </p>
+                </li>
+                <li>
+                    <strong>V-Scale (Bouldering)</strong>
+                    <p>Grade Range: V0 - V17 <br>
+                       <p> The V-Scale is specifically designed for bouldering and rates problems based on difficulty. It is a numerical system with increasing numbers signifying greater challenge.
+                   </p>
+                    </p>
+                <li>
+                    <strong>UIAA Grading System (Alpine Climbing)</strong>
+                    <p>Grade Range: I - VII+ <br>
+                      <p>  The UIAA grading system is commonly used for alpine climbing and emphasizes the overall difficulty, commitment level, and objective hazards of a climb. It includes technical, physical, and psychological factors.
+                </p>
+                </p>
+                </li>
+            </ul>
+    <p><a href="technique.html">Previous</a> | <a href="guidebooks.html">Guidebooks</a></p>
+</div>
+<div class="image-container">
+    <img alt="Rock Climbing Image" src="img/scale.png">
+</div>
+</div>
+</body>
+</html>
