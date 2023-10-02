@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>What is Rock Climbing?</title>
+    <title>Trad Climbing</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <style>
         .slide p {
@@ -17,7 +17,7 @@
         }
 
         .image-container {
-            display: grid;
+            display: flex;
             grid-template-columns: 1fr 1fr; /* Two columns, adjust as needed */
             gap: 10px; /* Adjust the gap between images */
         }
@@ -31,8 +31,8 @@
 
         /* CSS for individual images */
         .image-container img {
-            width: 500px;
-            height: 500px;
+            width: 400px;
+            height: 400px;
             object-fit: cover;
         }
         header {
@@ -44,7 +44,7 @@
 
         /* Add a class to make the header sticky */
         .sticky {
-            position: fixed;
+            position: inherit;
             top: 0;
             width: 100%;
             z-index: 100;
@@ -57,26 +57,29 @@
 </header>
 <!-- Include the Slide Template and Fill in the Content -->
 <div class="slide" id="slide2">
-    <h1>What is Rock Climbing?</h1>
+    <h1>Traditional Climbing</h1>
     <ul>
-        <li> Rock climbing stands out as an adventure-filled activity that entails scaling natural or artificial rock
-            formations, offering a thrilling experience of suspension high above the ground
+        <li>
+            Trad climbing, short for traditional climbing, is a form of rock climbing where climbers place removable protection devices as they ascend.
         </li>
-        <li>This distinctive sport provides an extraordinary sense of liberation and concentration that few other
-            pastimes can match.
+        <li>
+            Trad climbers use gear such as nuts, cams, and hexes to create anchor points and protect themselves against falls.
         </li>
-        <li>Rock climbing has garnered widespread acclaim, drawing enthusiasts for both leisure and competitive
-            pursuits.
+        <li>
+            Unlike sport climbing, where fixed bolts are often used, trad climbers rely on their judgment and placement skills to select appropriate gear placements.
+        </li>
+        <li>
+            Trad climbing offers a unique challenge as climbers must find suitable cracks, fissures, or features in the rock to place protection gear.
         </li>
     </ul>
     <!-- Container for images -->
     <div class="image-container">
-        <img alt="Rock Climbing Image" src="img/gym_climber.png">
-        <img alt="Rock Climbing Image" src="img/outdoor_climber.png">
+        <img alt="Rock Climbing Image" src="img/trad.png">
+        <img alt="Rock Climbing Image" src="img/trad2.png">
+        <img alt="Rock Climbing Image" src="img/trad3.png">
     </div>
     <!-- Navigation Links -->
-    <p><a href="index.html">Previous</a> | <a href="history.html">History of Rock Climbing</a></p>
+    <p><a href="type_trad.html">Previous</a> | <a href="type_alpine.html">Alpine Climbing</a></p>
 </div>
 </body>
 </html>
-
