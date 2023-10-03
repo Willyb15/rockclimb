@@ -22,15 +22,15 @@ body {
 
 /* Header styles */
 .slide h1 {
-    font-size: 24px;
+    /*font-size: 24px;*/
     margin-top: 20px;
-    color: #fab1b1;
+    color: red;
 }
 
 /* Paragraph styles */
 .slide p {
     font-size: 20px;
-    color: #666;
+    color: black;
 }
 
 /* List styles*/

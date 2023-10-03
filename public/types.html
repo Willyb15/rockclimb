@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Slide 4: Types of Modern Rock Climbing</title>
+    <title>Styles of Rock Climbing</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <style>
-        img {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
+        .slide p {
+            font-size: 20px; /* Adjust the font size as needed */
+            text-align: left;
+        }
 
+        /*.slide ul { !* Apply the style to the entire list *!*/
+        /*    text-align: left;*/
+        /*    margin: 30px;*/
+        /*    font-size: 25px;*/
+        /*    list-style-type: circle;*/
+        /*}*/
+
+        .image-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns, adjust as needed */
+            gap: 10px; /* Adjust the gap between images */
         }
 
         .slide ul {
             text-align: left;
             margin: 25px;
-            font-size: 35px;
+            font-size: 25px;
+            list-style-type: circle;
+        }
+
+        /* CSS for individual images */
+        .image-container img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
         }
         header {
             background-color: #333;
@@ -25,20 +44,25 @@
 
         /* Add a class to make the header sticky */
         .sticky {
-            position: fixed;
+            position: inherit;
             top: 0;
             width: 100%;
             z-index: 100;
         }
+        img{
+            width: 850px;
+            height: 550px;
+        }
 
     </style>
+    <script src="https://assets.adobedtm.com/7c44429308df/3fec82d51b92/launch-5902ca3027ad.min.js" async></script>
 <body>
 <header class="sticky">
     <h1>Modern Rock Climbing</h1>
 </header>
 <!-- Include the Slide Template and Fill in the Content -->
 <div class="slide" id="slide4">
-    <h1>Types of "Modern" Rock Climbing</h1>
+    <h1>Styles of Rock Climbing Today</h1>
     <ul>
         <li>
             Bouldering
@@ -53,8 +77,7 @@
             Alpine Climbing
         </li>
     </ul>
-    <p>Each type has its unique characteristics and challenges. This can be from the actual physical rock, or the type
-        of protection being used by the climber. </p>
+    <img src="img/styles.png" alt="Rock Climbing Image">
     <!-- Navigation Links -->
     <p><a href="history.html">Previous</a> | <a href="type_bouldering.html">Bouldering</a></p>
 </div>
