@@ -17,7 +17,7 @@
         }
 
         .image-container {
-            display: grid;
+            display: flex;
             grid-template-columns: 1fr 1fr; /* Two columns, adjust as needed */
             gap: 10px; /* Adjust the gap between images */
         }
@@ -31,8 +31,8 @@
 
         /* CSS for individual images */
         .image-container img {
-            width: 500px;
-            height: 500px;
+            width: 400px;
+            height: 400px;
             object-fit: cover;
         }
         header {
@@ -54,29 +54,30 @@
     <script src="https://assets.adobedtm.com/7c44429308df/3fec82d51b92/launch-5902ca3027ad.min.js" async></script>
 <body>
 <header class="sticky">
-    <h1>Modern Rock Climbing</h1>
+    <h1>Rock Climbing: A Journey of Connection and Exploration</h1>
 </header>
 <!-- Include the Slide Template and Fill in the Content -->
 <div class="slide" id="slide2">
     <h1>What is Rock Climbing?</h1>
     <ul>
-        <li> Rock climbing is an adventure-filled activity that entails scaling natural or artificial rock
-            formations, offering a thrilling experience of suspension high above the ground
-        </li>
-        <li>This unique sport provides an extraordinary sense of liberation and concentration that few other
-           activities can match.
+        <li> Rock climbing is an activity that entails scaling natural or artificial rock
+            formations, offering a thrilling experience movement high (or low) above the ground
         </li>
         <li>Rock climbing has gained popularity in mainstream culture and spread worldwide, drawing enthusiasts for both leisure and competitive
             pursuits.
         </li>
+        <li>There is more to Rock Climbing than just the physical activity</li>
     </ul>
     <!-- Container for images -->
     <div class="image-container">
+        <img alt="Rock Climbing Image" src="img/hudson.png">
         <img alt="Rock Climbing Image" src="img/gym_climber.png">
         <img alt="Rock Climbing Image" src="img/outdoor_climber.png">
+        <img alt="Rock Climbing Image" src="img/freesolo.png">
+
     </div>
     <!-- Navigation Links -->
-    <p><a href="index.html">Previous</a> | <a href="history.html">History of Rock Climbing</a></p>
+    <p><a href="index.html">Previous</a> | <a href="community.html">Community</a></p>
 </div>
 </body>
 </html>
